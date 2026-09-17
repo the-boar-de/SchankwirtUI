@@ -3,26 +3,49 @@
 @inject ApiService Api
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<PageTitle> Item </PageTitle>
+<PageTitle> Settings </PageTitle>
 
 <h1> Setting Test</h1>
 
-<p role="status">Message is: @message </p>
+<p role="status">Message is: @message.info </p>
 
-<button class="btn btn-primary" @onclick ="Button_Click">Click me</button>
+<p role="status">Number is: @message.id </p>
 
 
+<button class="btn btn-primary" 
+    @onclick ="Get_Button">
+    Get Info
+</button>
+
+
+<button class="btn btn-primary" 
+    @onclick ="Put_Button">
+    Put Info
+</button>
+
+<input class="form-control" @bind="json.id" />
+<input class="form-control" @bind="json.info" />
 
 @code {
-string message = "lädt ....";
+
+jsonstruct json = new jsonstruct { id = 0, info = "put info" };
+
+jsonstruct message = new jsonstruct { id = 0, info = "lädt ...." };
 
 
 
-protected async Task Button_Click(){
+
+
+
+
+protected async Task Get_Button(){
   message = await Api.GetItemAsync();
   }
 
-   // protected async Task Print()
-   // => Console.WriteLine("Buttonworks"); //await Api.GetItemAsync();
+protected async Task Put_Button(){
+
+
+  await Api.PutItemAsync(json);
+  }
 
 }

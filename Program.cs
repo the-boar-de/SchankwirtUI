@@ -1,6 +1,6 @@
 using SchwankwirtUI.Components;
 
-var Url = "http://localhost:5000/";
+var Url = "http://localhost:8080/";
 
 var builder = WebApplication.CreateBuilder(args);
 
