@@ -1,4 +1,4 @@
-using SchwankwirtUI.Components;
+using SchankwirtUI.Components;
 
 var Url = "http://localhost:8080/";
 
@@ -13,7 +13,7 @@ builder.Services.AddBlazorBootstrap();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+.AddInteractiveServerComponents();
 
 var app = builder.Build();
 
@@ -31,7 +31,7 @@ app.UseAntiforgery();
 
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+.AddInteractiveServerRenderMode();
 
 app.Run();
 
