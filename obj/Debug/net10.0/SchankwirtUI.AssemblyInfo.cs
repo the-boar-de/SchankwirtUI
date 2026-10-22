@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchankwirtUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+677aa3ec6380fe73af7075ff85784d29e4466912")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchankwirtUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchankwirtUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

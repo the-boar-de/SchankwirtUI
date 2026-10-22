@@ -7,4 +7,12 @@
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Blazor.Bootstrap" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="11.0.0-rc.2.26504.105" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="11.0.0-rc.2.26504.105" />
+    <PackageReference Include="MudBlazor" Version="9.11.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
 </Project>

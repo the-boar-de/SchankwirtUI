@@ -1,0 +1,9 @@
+/workspaces/SchankwirtUI/obj/Release/net10.0/EmbeddedAttribute.cs
+/workspaces/SchankwirtUI/obj/Release/net10.0/ValidatableTypeAttribute.cs
+/workspaces/SchankwirtUI/obj/Release/net10.0/rpswa.dswa.cache.json
+/workspaces/SchankwirtUI/obj/Release/net10.0/SchankwirtUI.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/SchankwirtUI/obj/Release/net10.0/SchankwirtUI.AssemblyInfoInputs.cache
+/workspaces/SchankwirtUI/obj/Release/net10.0/SchankwirtUI.AssemblyInfo.cs
+/workspaces/SchankwirtUI/obj/Release/net10.0/SchankwirtUI.csproj.CoreCompileInputs.cache
+/workspaces/SchankwirtUI/obj/Release/net10.0/SchankwirtUI.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/SchankwirtUI/obj/Release/net10.0/SchankwirtUI.sourcelink.json
