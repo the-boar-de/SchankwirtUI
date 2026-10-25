@@ -1,0 +1,37 @@
+@using SchankwirtUI.Components.Pages
+
+<div class="sidebar">
+
+    @*HOME*@
+    <MudNavLink Href="@SchankwirtUI.Pagenames.Home"
+                Match="NavLinkMatch.All"
+                Icon="@Icons.Material.Filled.Home">
+        Home
+    </MudNavLink>
+    
+    @*SETTINGS*@
+    <MudNavLink Href="@SchankwirtUI.Pagenames.Settings"
+                Match="NavLinkMatch.All"
+                Icon="@Icons.Material.Filled.Settings">
+        Settings
+    </MudNavLink>
+    
+    @*COMMANDS*@
+    <MudNavLink Href="@SchankwirtUI.Pagenames.Commands"
+                Match="NavLinkMatch.All"
+                Icon="@Icons.Material.Filled.Chat">
+        Commands
+    </MudNavLink> 
+    @*ROLES*@
+    <MudNavLink Href="@SchankwirtUI.Pagenames.Roles"
+                Match="NavLinkMatch.All"
+                Icon="@Icons.Material.Filled.People">
+        Roles
+    </MudNavLink>
+    @*LICENSE*@
+    <MudNavLink Href="@SchankwirtUI.Pagenames.License"
+                Match="NavLinkMatch.All"
+                Icon="@Icons.Material.Filled.LibraryBooks">
+        License
+    </MudNavLink> 
+</div>

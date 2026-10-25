@@ -1,19 +1,15 @@
 using SchankwirtUI.Components;
+using MudBlazor.Services;
 
 var Url = "http://localhost:8080/";
 
 var builder = WebApplication.CreateBuilder(args);
-
-
 // register server to UI
 builder.Services.AddHttpClient<ApiService>(c => c.BaseAddress = new Uri(Url) );
-
-//Bootstrap
-builder.Services.AddBlazorBootstrap();
-
+builder.Services.AddMudServices();
 // Add services to the container.
 builder.Services.AddRazorComponents()
-.AddInteractiveServerComponents();
+    .AddInteractiveServerComponents();
 
 var app = builder.Build();
 
@@ -31,7 +27,6 @@ app.UseAntiforgery();
 
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
-.AddInteractiveServerRenderMode();
+    .AddInteractiveServerRenderMode();
 
 app.Run();
-

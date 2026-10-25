@@ -1,23 +1,59 @@
-﻿@inherits LayoutComponentBase
+@using NavigationContext = MudBlazor.NavigationContext
+@inherits LayoutComponentBase
+@inject IJSRuntime JS
+@rendermode InteractiveServer
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+<MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+<MudLayout>
+@*Top bar*@
+<MudAppBar Color="Color.Primary" Fixed="false">
+    <MudIconButton Icon="@(_isDarkMode ? Icons.Material.Filled.LightMode : Icons.Material.Filled.DarkMode)"
+                   Color="Color.Inherit"
+                   OnClick="Toggle"/>
+    <MudSpacer/>
+    <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" OnClick="@Github"/>
+</MudAppBar>
+@* Side bar *@
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+<MudDrawer Elevation="1" Variant="@DrawerVariant.Mini" OpenMiniOnHover="false" Breakpoint="Breakpoint.None">
+    <MudNavMenu>
+        <Sidebar/>
+    </MudNavMenu>
+</MudDrawer>
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>-+
-</div>
+@* Main Content*@
+<MudMainContent>
+        @* Mud Content *@
+        <MudMainContent>
+            <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
+                @Body
+            </MudContainer>
+        </MudMainContent>
+</MudMainContent>
+</MudLayout>
+@code
+{
+    //Mudthem
+    private MudTheme _theme = new();
+    //DarkMode
+    private bool _isDarkMode = true;
+    private void Toggle() => _isDarkMode = !_isDarkMode;
+    //Side bar
 
-<div id="blazor-error-ui" data-nosnippet>
-    An unhandled error has occurred.
-    <a href="." class="reload">Reload</a>
-    <span class="dismiss">🗙</span>
-</div>
+    
+    //Button Top bar
+    //Github
+    private static readonly string _githubLink = "https://github.com/the-boar-de/SchankwirtUI";
+
+    private  async Task Github()
+    {
+        await JS.InvokeVoidAsync("open", _githubLink, "_blank");
+
+    }
+
+
+    }
+}
+
