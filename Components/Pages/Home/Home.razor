@@ -1,11 +1,23 @@
 ﻿@page "/"
 @inject ApiService Api
+@inject IWebHostEnvironment Env
 
-<PageTitle>Home</PageTitle>
+@code
+{
+    PublicVariables pubvar = new PublicVariables();
+}
+<PageTitle>@pubvar._title</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Home</h1>
 
-Welcome to your new app. test tets test
+<pre>@Hometext</pre>
 
+@code {
+    private string? Hometext;
 
-
+    protected override void OnInitialized()
+    {
+        var path = Path.Combine(Env.ContentRootPath, "README.md");
+        Hometext = File.ReadAllText(path);
+    }
+}

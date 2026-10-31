@@ -37,8 +37,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lL0hvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/chris/Files/Projekte/Schankwirt/SchankwirtUI/Components/Pages/License/License_App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9MaWNlbnNlL0xpY2Vuc2VfQXBwLnJhem9y
+[/home/chris/Files/Projekte/Schankwirt/SchankwirtUI/Components/Pages/License/License.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9MaWNlbnNlL0xpY2Vuc2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/chris/Files/Projekte/Schankwirt/SchankwirtUI/Components/Pages/Output/Error.razor]

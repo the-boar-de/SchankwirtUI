@@ -3,45 +3,60 @@
 @inject IJSRuntime JS
 @rendermode InteractiveServer
 
+@code
+{
+    PublicVariables pubvar = new PublicVariables();
+}
+
 <MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
 <MudDialogProvider/>
 <MudSnackbarProvider/>
 <MudLayout>
 @*Top bar*@
 <MudAppBar Color="Color.Primary" Fixed="false">
-    <MudIconButton Icon="@(_isDarkMode ? Icons.Material.Filled.LightMode : Icons.Material.Filled.DarkMode)"
+    @*  <MudIconButton Icon="@(_isDarkMode ? Icons.Material.Filled.LightMode : Icons.Material.Filled.DarkMode)"
                    Color="Color.Inherit"
-                   OnClick="Toggle"/>
+                   OnClick="Toggle"/>*@
+    <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@ToggleDrawer" />
     <MudSpacer/>
     <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" OnClick="@Github"/>
 </MudAppBar>
 @* Side bar *@
-
-<MudDrawer Elevation="1" Variant="@DrawerVariant.Mini" OpenMiniOnHover="false" Breakpoint="Breakpoint.None">
-    <MudNavMenu>
-        <Sidebar/>
-    </MudNavMenu>
-</MudDrawer>
+    <MudDrawer @bind-Open="@_open"
+               Overlay="false"
+               Elevation="1"
+               Variant="@DrawerVariant.Temporary">
+        <MudDrawerHeader>
+            <MudText Typo="Typo.h6">@pubvar._title</MudText>
+        </MudDrawerHeader>
+        <MudNavMenu>
+            <Sidebar/>
+        </MudNavMenu>
+    </MudDrawer>
 
 @* Main Content*@
 <MudMainContent>
-        @* Mud Content *@
-        <MudMainContent>
-            <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
-                @Body
-            </MudContainer>
-        </MudMainContent>
-</MudMainContent>
+    @* Mud Content *@
+        <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
+            @Body
+        </MudContainer>
+</MudMainContent> 
 </MudLayout>
 @code
 {
+
     //Mudthem
     private MudTheme _theme = new();
     //DarkMode
     private bool _isDarkMode = true;
     private void Toggle() => _isDarkMode = !_isDarkMode;
     //Side bar
+    private bool _open = false;
 
+    private void ToggleDrawer()
+    {
+        _open = !_open;
+    } 
     
     //Button Top bar
     //Github
@@ -54,6 +69,6 @@
     }
 
 
-    }
+    
 }
 

@@ -181,3 +181,4 @@
 /home/chris/Files/Projekte/Schankwirt/SchankwirtUI/obj/Debug/net10.0/scopedcss/Components/Layout/Sidebar.razor.rz.scp.css
 /home/chris/Files/Projekte/Schankwirt/SchankwirtUI/obj/Debug/net10.0/compressed/ckk69hgvvz-{0}-it5vdhzlk4-it5vdhzlk4.gz
 /home/chris/Files/Projekte/Schankwirt/SchankwirtUI/obj/Debug/net10.0/compressed/zwpyrfif2e-{0}-it5vdhzlk4-it5vdhzlk4.gz
+/home/chris/Files/Projekte/Schankwirt/SchankwirtUI/bin/Debug/net10.0/global.json

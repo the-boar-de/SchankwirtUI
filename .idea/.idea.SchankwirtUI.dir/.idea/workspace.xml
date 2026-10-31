@@ -7,163 +7,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeSettings">
     <configurations />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309934f9-e653-42ed-b3ab-93b4771b176a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchankwirtUI.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SchankwirtUI.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Layout/Sidebar.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Pages/Pages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/clu3y6n3py-{0}-cd06xom9c5-cd06xom9c5.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/v8vj13gxk1-{0}-vmftroxvhh-vmftroxvhh.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/publicvariables.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchankwirtUI.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchankwirtUI.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/App.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Layout/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Layout/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Layout/MainLayout.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Layout/NavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Layout/NavMenu.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Layout/ReconnectModal.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Layout/ReconnectModal.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Layout/ReconnectModal.razor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Pages/Dashboard/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Pages/Home/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Pages/License/License_App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Pages/License/License_App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Pages/NotFound.razor" beforeDir="false" afterPath="$PROJECT_DIR$/.ai/mcp/mcp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Routes.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Routes.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Pages/Home/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Pages/Home/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Pages/License/License_App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Pages/License/License.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Pages/Pages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Pages/Pages.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchankwirtUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SchankwirtUI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/BlazorBootstrap.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Diagnostics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Options.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.staticwebassets.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/SchankwirtUI.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/SchankwirtUI.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/0gq73uy1w6-{0}-y7v9cxd14o-y7v9cxd14o.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/0gq73uy1w6-{0}-y7v9cxd14o-y7v9cxd14o.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/0uuuda1zac-{0}-s35ty4nyc5-s35ty4nyc5.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/0uuuda1zac-{0}-s35ty4nyc5-s35ty4nyc5.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/0wz98yz2xy-{0}-iqa03rp1wd-iqa03rp1wd.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/0wz98yz2xy-{0}-iqa03rp1wd-iqa03rp1wd.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/13ae4lgzyb-{0}-dxx9fxp4il-dxx9fxp4il.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/13ae4lgzyb-{0}-dxx9fxp4il-dxx9fxp4il.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/1al12kencr-{0}-37tfw0ft22-37tfw0ft22.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/1al12kencr-{0}-37tfw0ft22-37tfw0ft22.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/1ghvlo3gzs-{0}-0j3bgjxly4-0j3bgjxly4.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/1ghvlo3gzs-{0}-0j3bgjxly4-0j3bgjxly4.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/36w3eu0hkb-{0}-j8zp7bt7w3-j8zp7bt7w3.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/3ia9dg6hlz-{0}-hrwsygsryq-hrwsygsryq.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/3ia9dg6hlz-{0}-hrwsygsryq-hrwsygsryq.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/4g7u7skq0n-{0}-k8d9w2qqmf-k8d9w2qqmf.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/4g7u7skq0n-{0}-k8d9w2qqmf-k8d9w2qqmf.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/51dn6cifxm-{0}-cyz5k529gx-cyz5k529gx.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/578tfav2cb-{0}-tdbxkamptv-tdbxkamptv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/578tfav2cb-{0}-tdbxkamptv-tdbxkamptv.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/6kvutet5d7-{0}-vr1egmr9el-vr1egmr9el.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/6kvutet5d7-{0}-vr1egmr9el-vr1egmr9el.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/7b58d0dycz-{0}-j5mq2jizvt-j5mq2jizvt.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/7b58d0dycz-{0}-j5mq2jizvt-j5mq2jizvt.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/7hadseoved-{0}-rzd6atqjts-rzd6atqjts.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/7hadseoved-{0}-rzd6atqjts-rzd6atqjts.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/7hwmd3iucl-{0}-jd9uben2k1-jd9uben2k1.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/7hwmd3iucl-{0}-jd9uben2k1-jd9uben2k1.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/8bn3000fm7-{0}-mnccjmrpdk-mnccjmrpdk.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/bpxuy9ryfl-{0}-f6r6spnkpf-f6r6spnkpf.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/bqdw2o6vr2-{0}-bqjiyaj88i-bqjiyaj88i.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/bqdw2o6vr2-{0}-bqjiyaj88i-bqjiyaj88i.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/c6lnqr5iqy-{0}-c2jlpeoesf-c2jlpeoesf.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/c6lnqr5iqy-{0}-c2jlpeoesf-c2jlpeoesf.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ckk69hgvvz-{0}-s2pw31m5hn-s2pw31m5hn.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/clu3y6n3py-{0}-9hsif5t8mt-9hsif5t8mt.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/d5o4a4wkq9-{0}-30xw9wihir-30xw9wihir.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/dk2i9cyfxv-{0}-v0zj4ognzu-v0zj4ognzu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/dk2i9cyfxv-{0}-v0zj4ognzu-v0zj4ognzu.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/dx9uhwn47j-{0}-iovd86k7lj-iovd86k7lj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/dx9uhwn47j-{0}-iovd86k7lj-iovd86k7lj.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/dxzdyk5x9p-{0}-ft3s53vfgj-ft3s53vfgj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/dxzdyk5x9p-{0}-ft3s53vfgj-ft3s53vfgj.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/e927pxkc3m-{0}-63fj8s7r0e-63fj8s7r0e.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/e927pxkc3m-{0}-63fj8s7r0e-63fj8s7r0e.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/er0b2dw3zy-{0}-ub07r2b239-ub07r2b239.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/er0b2dw3zy-{0}-ub07r2b239-ub07r2b239.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/f149v1ufyz-{0}-493y06b0oq-493y06b0oq.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/f149v1ufyz-{0}-493y06b0oq-493y06b0oq.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/fifh61lyz9-{0}-nvvlpmu67g-nvvlpmu67g.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/fifh61lyz9-{0}-nvvlpmu67g-nvvlpmu67g.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/fja8uj2lio-{0}-6pdc2jztkx-6pdc2jztkx.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/fja8uj2lio-{0}-6pdc2jztkx-6pdc2jztkx.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/g5xzqop0rf-{0}-khv3u5hwcm-khv3u5hwcm.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/g5xzqop0rf-{0}-khv3u5hwcm-khv3u5hwcm.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/gwevzuz3br-{0}-46ein0sx1k-46ein0sx1k.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/gwevzuz3br-{0}-46ein0sx1k-46ein0sx1k.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/hrjyd32iiz-{0}-h1s4sie4z3-h1s4sie4z3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/hrjyd32iiz-{0}-h1s4sie4z3-h1s4sie4z3.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ipaumt0qod-{0}-kbrnm935zg-kbrnm935zg.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ipaumt0qod-{0}-kbrnm935zg-kbrnm935zg.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/jjm6k10bfe-{0}-d7shbmvgxk-d7shbmvgxk.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/jjm6k10bfe-{0}-d7shbmvgxk-d7shbmvgxk.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/kh6o0fenao-{0}-lcd1t2u6c8-lcd1t2u6c8.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/kh6o0fenao-{0}-lcd1t2u6c8-lcd1t2u6c8.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/kzt8b9007i-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/kzt8b9007i-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ladjrd0md2-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ladjrd0md2-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/las58i5y6c-{0}-fsbi9cje9m-fsbi9cje9m.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/las58i5y6c-{0}-fsbi9cje9m-fsbi9cje9m.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/lum1mtwi8n-{0}-ausgxo2sd3-ausgxo2sd3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/lum1mtwi8n-{0}-ausgxo2sd3-ausgxo2sd3.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/m7yxsgpet6-{0}-w7mf952350-w7mf952350.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/m7yxsgpet6-{0}-w7mf952350-w7mf952350.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/mfzx4sb2rv-{0}-79hai7knhw-79hai7knhw.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/mstdoj5ajv-{0}-pk9g2wxc8p-pk9g2wxc8p.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/mstdoj5ajv-{0}-pk9g2wxc8p-pk9g2wxc8p.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/o7k4cxtn0u-{0}-l06jc0jg2i-l06jc0jg2i.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/o7k4cxtn0u-{0}-l06jc0jg2i-l06jc0jg2i.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/o8wni4xntf-{0}-aexeepp0ev-aexeepp0ev.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/o8wni4xntf-{0}-aexeepp0ev-aexeepp0ev.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/p6y2v546kv-{0}-cosvhxvwiu-cosvhxvwiu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/p6y2v546kv-{0}-cosvhxvwiu-cosvhxvwiu.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/q8v6i1uv3e-{0}-pisakkcwob-pisakkcwob.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/refgsao5tb-{0}-jbj5vv28m9-jbj5vv28m9.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ryve0m9zrf-{0}-c2oey78nd0-c2oey78nd0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ryve0m9zrf-{0}-c2oey78nd0-c2oey78nd0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/sismm8xg1l-{0}-ezlxc6gzv3-ezlxc6gzv3.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/sksmpc4wpk-{0}-6cfz1n2cew-6cfz1n2cew.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/sksmpc4wpk-{0}-6cfz1n2cew-6cfz1n2cew.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/trues8699z-{0}-notf2xhcfb-notf2xhcfb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/trues8699z-{0}-notf2xhcfb-notf2xhcfb.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/tzxjg6is5z-{0}-ba3pmqgwfm-ba3pmqgwfm.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/tzxjg6is5z-{0}-ba3pmqgwfm-ba3pmqgwfm.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/uhjtnih1du-{0}-b7pk76d08c-b7pk76d08c.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/uhjtnih1du-{0}-b7pk76d08c-b7pk76d08c.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/v8vj13gxk1-{0}-dwu72t6gfx-dwu72t6gfx.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/x25c2bvzjh-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/x25c2bvzjh-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/xq91zmi9z1-{0}-jj8uyg4cgr-jj8uyg4cgr.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/xq91zmi9z1-{0}-jj8uyg4cgr-jj8uyg4cgr.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/yj7xjvs87w-{0}-pj5nd1wqec-pj5nd1wqec.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/yj7xjvs87w-{0}-pj5nd1wqec-pj5nd1wqec.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ymloh02y6h-{0}-06098lyss8-06098lyss8.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/ymloh02y6h-{0}-06098lyss8-06098lyss8.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/yxfdm33bor-{0}-bwxarsy01x-bwxarsy01x.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/zovpcps8su-{0}-erw9l3u2r3-erw9l3u2r3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/zovpcps8su-{0}-erw9l3u2r3-erw9l3u2r3.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/compressed/zwpyrfif2e-{0}-1h1ppwr2ix-1h1ppwr2ix.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/ref/SchankwirtUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/ref/SchankwirtUI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/refint/SchankwirtUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/refint/SchankwirtUI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/rjimswa.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/Components/Layout/ReconnectModal.razor.rz.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/bundle/SchankwirtUI.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/bundle/SchankwirtUI.styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/projectbundle/SchankwirtUI.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/scopedcss/projectbundle/SchankwirtUI.bundle.scp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.build.json.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/EmbeddedAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Layout/Sidebar.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/SchankwirtUI.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/ValidatableTypeAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net10.0/rpswa.dswa.cache.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/SchankwirtUI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SchankwirtUI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/SchankwirtUI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SchankwirtUI.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/SchankwirtUI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SchankwirtUI.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,33 +50,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "the-boar-de"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;the-boar-de&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:the-boar-de/SchankwirtUI.git",
-    "accountId": "3ee329bd-c38e-4336-9aa8-2567f3ef6e56"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:the-boar-de/SchankwirtUI.git&quot;,
+    &quot;accountId&quot;: &quot;3ee329bd-c38e-4336-9aa8-2567f3ef6e56&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d1c7e54b15b4204be27f6ff61f142d717200/cd/b28f17ca/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6d7d0459de50413c9631230c0c8d589324600/20/1c69fb97/JSRuntimeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/820f7ef950dd45098a75691e232d6dc9e4e00/b6/3e8d5d36/EventCallback`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83b013061abc4da48bc6589a205d570762a00/68/c151c2c9/MouseEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4d6b99bacfc12eaebf321ec7f41797ea958521c92bdfac8e98fea119acc4f2/Filled.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/72d781990c1b3d4b4732da7f6be54c9c73bf6521d86efd5d7b0b6cf914/MudIconButton.razor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/77c22ddc75177abb78d04d2c8cf5cbe2896ed3abf44572e459e214e6ffd6f50/MudBaseButton.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Components/Layout/BaseLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Components/Layout/MainLayout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Components/Layout/MainLayout.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Components/Layout/MainLayout.razor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Components/Layout/Sidebar.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Components/Layout/Sidebar.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.nuget/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Components/Layout/Sidebar.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Components/Pages/Pages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Components/publicvariables.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -211,69 +82,69 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.000000150218854" />
-      <entry key="S10" value="1.0004253273421388" />
-      <entry key="S30" value="1.1458606524272223" />
-      <entry key="S60" value="2.0712843222668713" />
-      <entry key="M2" value="7.775201856575021" />
-      <entry key="M5" value="31.72171727913129" />
-      <entry key="M10" value="57.0303330232065" />
-      <entry key="M15" value="74.98606826525962" />
-      <entry key="M30" value="117.23204913599588" />
-      <entry key="H1" value="177.887725101236" />
-      <entry key="H2" value="254.5499515010064" />
-      <entry key="H4" value="329.56689267783315" />
-      <entry key="D1" value="433.2694425803883" />
-      <entry key="W1" value="456.8606578899317" />
+      <entry key="MS100" value="1.3973456719693598" />
+      <entry key="MS500" value="2.5853813010775673" />
+      <entry key="S2" value="5.012917852142925" />
+      <entry key="S5" value="7.568667450577468" />
+      <entry key="S10" value="9.300712530895916" />
+      <entry key="S30" value="16.32860850792772" />
+      <entry key="S60" value="28.369209828866705" />
+      <entry key="M2" value="46.18105711259162" />
+      <entry key="M5" value="73.19888588900847" />
+      <entry key="M10" value="93.00488340484611" />
+      <entry key="M15" value="104.71942467303475" />
+      <entry key="M30" value="135.1243546452422" />
+      <entry key="H1" value="198.131690776141" />
+      <entry key="H2" value="297.7455603188183" />
+      <entry key="H4" value="407.82160815993535" />
+      <entry key="D1" value="576.1536183622164" />
+      <entry key="W1" value="616.7865360847068" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.4525694232047523E-75" />
-      <entry key="S2" value="1.9529136101080414E-19" />
-      <entry key="S5" value="3.4764443280358123E-8" />
-      <entry key="S10" value="2.531862976586515E-4" />
-      <entry key="S30" value="0.15921929233816753" />
-      <entry key="S60" value="1.0150213996256525" />
-      <entry key="M2" value="2.8632088063717576" />
-      <entry key="M5" value="5.632888679500582" />
-      <entry key="M10" value="7.669983458531333" />
-      <entry key="M15" value="9.55981342044911" />
-      <entry key="M30" value="15.343852254708217" />
-      <entry key="H1" value="25.112866135169167" />
-      <entry key="H2" value="38.6436377129596" />
-      <entry key="H4" value="52.415413907497594" />
-      <entry key="D1" value="71.78668831356433" />
-      <entry key="W1" value="76.22119922328645" />
+      <entry key="MS500" value="7.075192786030293E-184" />
+      <entry key="S2" value="1.6309271764611022E-46" />
+      <entry key="S5" value="4.841432172917146E-19" />
+      <entry key="S10" value="6.961163778227716E-10" />
+      <entry key="S30" value="0.0011092276372737726" />
+      <entry key="S60" value="0.07203732187947846" />
+      <entry key="M2" value="0.7851996964873899" />
+      <entry key="M5" value="3.779947118844448" />
+      <entry key="M10" value="6.979608810420125" />
+      <entry key="M15" value="9.058162626454603" />
+      <entry key="M30" value="13.989389012445734" />
+      <entry key="H1" value="23.537690373485823" />
+      <entry key="H2" value="39.44183381972292" />
+      <entry key="H4" value="58.01012752423764" />
+      <entry key="D1" value="87.47992731713201" />
+      <entry key="W1" value="94.71243503135757" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.7118567062272996E-10" />
-      <entry key="MS500" value="0.012208248127692459" />
-      <entry key="S2" value="0.3324017770454287" />
-      <entry key="S5" value="0.6436732133790832" />
-      <entry key="S10" value="0.8029074638742201" />
-      <entry key="S30" value="1.2246643134882864" />
-      <entry key="S60" value="3.0214767082462872" />
-      <entry key="M2" value="10.578692895390287" />
-      <entry key="M5" value="37.30820565099128" />
-      <entry key="M10" value="64.66563128200026" />
-      <entry key="M15" value="84.51528675524524" />
-      <entry key="M30" value="132.54912313786397" />
-      <entry key="H1" value="202.97724835186264" />
-      <entry key="H2" value="293.1748772333046" />
-      <entry key="H4" value="381.9693452709147" />
-      <entry key="D1" value="505.0531250076461" />
-      <entry key="W1" value="533.0814000628487" />
+      <entry key="MS100" value="1.3684837354581683" />
+      <entry key="MS500" value="2.574052875755198" />
+      <entry key="S2" value="5.00748706048619" />
+      <entry key="S5" value="7.5654588233927615" />
+      <entry key="S10" value="9.298676457843872" />
+      <entry key="S30" value="16.32789656085862" />
+      <entry key="S60" value="28.436355590763178" />
+      <entry key="M2" value="46.947432329407455" />
+      <entry key="M5" value="76.94253440402154" />
+      <entry key="M10" value="99.94532333668984" />
+      <entry key="M15" value="113.73845593851851" />
+      <entry key="M30" value="149.07630051761544" />
+      <entry key="H1" value="221.6359665703259" />
+      <entry key="H2" value="337.1604331816031" />
+      <entry key="H4" value="465.812763059324" />
+      <entry key="D1" value="663.6289938839234" />
+      <entry key="W1" value="711.4982730123487" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Toolset" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3LBxqrFbpMJTccexl0VZczFoe5Q" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -282,31 +153,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "dotnet-watch.UIwatcher.executor": "Run",
-    "dotnet-watch.Unnamed.executor": "Run",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/chris/Files/Projekte/Schankwirt/SchankwirtUI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dotnet-watch.UIwatcher.executor&quot;: &quot;Run&quot;,
+    &quot;dotnet-watch.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chris/Files/Projekte/Schankwirt/SchankwirtUI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="UIwatcher" type="RunDotNetWatch" factoryName="RunDotNetWatch">
       <option name="envs">
@@ -339,8 +211,21 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="reworked main layout&#10;added darkmode&#10;added sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworked main layout&#10;added darkmode&#10;added sidebar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
