@@ -1,10 +1,14 @@
 # Schankwirt UI
-### Version 0.0.1
 
+### Set up Webinterface for the Bot
 
+This Webinteface helps to configure the function of the Bot. 
 
-This Web Application is the control panel of the Schwankwirt core Bot Application.
-It's purpose is the add and remove commands from the bot and control the behaviour
+What is included in this UI
+ - Page for Custom messages
+ - Custom command creataion
+ - role selection
 
+The purpose is to make the selfhosted bot easy handleale.
 
-[Read Me not finished]
+For mor Information checkout the wiki -> [SchankwirtWiki](https://github.com/the-boar-de/Schankwirt/wiki)
